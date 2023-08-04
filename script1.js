@@ -865,20 +865,36 @@
 
 // console.log(minNum);
 
-let arr = [2, 2, 3, 4, 9,14];
-function maxNumber(arr){
-    let minNum = -Infinity;
-    for(let i = 0; i < arr.length; i++){
-        if(minNum < arr[i]){
-            minNum = arr[i]
-        }
-    }
-    return minNum;
-}
+// let arr = [2, 2, 3, 4, 9,14];
+// function maxNumber(arr){
+//     let minNum = -Infinity;
+//     for(let i = 0; i < arr.length; i++){
+//         if(minNum < arr[i]){
+//             minNum = arr[i]
+//         }
+//     }
+//     return minNum;
+// }
 
-console.log(maxNumber(arr));
-
-
+// console.log(maxNumber(arr));
 
 
 
+
+// let str = "hello wOrld";
+
+// function findVowels(string){
+//     let str1 = string.toLowerCase();
+//     let count = 0;
+//     for(let i = 0; i < str1.length; i++){
+//         if(str1[i] == "a" || str1[i] == "e" || str1[i] == "i" || str1[i] == "o" || str1[i] == "u"){
+//             count++
+//         }
+//     }
+//     return count;
+// }
+
+// console.log(findVowels("hello Wold New"));
+
+
+// Q13. Write a for loop to check if an array is sorted in ascending order.
